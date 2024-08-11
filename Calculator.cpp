@@ -13,19 +13,18 @@ void display()
 }
 
 // Arithmetic operation functions
-long double addition(long double a, long double b)
+double addition(double a, double b)
 {
     return a + b;
 }
-long double subtraction(long double a, long double b)
-{
+double subtraction(double a, double b)
     return a - b;
 }
-long double multiplication(long double a, long double b)
+double multiplication(double a, double b)
 {
     return a * b;
 }
-long double division(long double a, long double b)
+double division(double a, double b)
 {
     if (b == 0)
     {
@@ -40,7 +39,7 @@ long double division(long double a, long double b)
 
 int main()
 {
-    long double a, b;
+    double a, b;
     int choice;
 
     while (true)
